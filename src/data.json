@@ -1,0 +1,101 @@
+{
+	"linkedlist": [{
+			"title": "Print the linked list",
+			"contributor": "Abhinav",
+			"contributorId": "https://github.com/abhinav1229",
+			"description": "Printing the linked list node values.",
+			"snippet": {
+				"cpp": [
+         "void printList(ListNode* head) {\n    while(head) {\n        cout << head->val << \" \";\n    }\n}\n"
+        ],
+				"java": [
+           "java..."
+        ],
+				"python": [
+          "python..."
+        ]
+			},
+			"timeComplexity": "O(n)",
+			"spaceComplexity": "O(1)"
+		},
+
+    
+		{
+			"title": "Length of the Linked List",
+			"contributor": "Abhinav",
+			"contributorId": "https://github.com/abhinav1229",
+			"description": "Calculating the lenght of the linked list.",
+			"snippet": {
+				"cpp": [
+          "void printList(ListNode* head) {\n    int len = 0;\n    while(head) {\n        len += 1;\n        head = head->next;\n    }\n    return len;\n}\n"
+        ],
+				"java": [
+          "Java..."
+        ],
+				"python": [
+          "python..."
+        ]
+			},
+			"timeComplexity": "O(n)",
+			"spaceComplexity": "O(1)"
+		}, 
+
+    {
+      "title": "Reverse the Linked List",
+			"contributor": "Abhinav",
+			"contributorId": "https://github.com/abhinav1229",
+			"description": "Reverse the linked list using temporary pointers.",
+			"snippet": {
+				"cpp": [
+          "ListNode* revList(ListNode* head) {\n    ListNode* prev = NULL;\n    ListNode* curr = head;\n    ListNode* next = NULL;\n\n    while(curr) {\n        next = curr->next;\n        curr->next = prev;\n        prev = curr;\n        curr = next;\n    }   \n    return prev;\n}\n"
+        ],
+				"java": [
+          "Java..."
+        ],
+				"python": [
+          "python..."
+        ]
+			},
+			"timeComplexity": "O(n)",
+			"spaceComplexity": "O(1)"
+    }
+	], 
+
+  "array":[
+    {
+      "title": "Reverse the Array",
+			"contributor": "Abhinav",
+			"contributorId": "https://github.com/abhinav1229",
+			"description": "Reverse the Array using while loop",
+			"snippet": {
+				"cpp": [
+          "Cpp reverse array..."
+        ],
+				"java": [
+          "Java..."
+        ],
+				"python": [
+          "python..."
+        ]
+			},
+			"timeComplexity": "O(n)",
+			"spaceComplexity": "O(1)"
+    }
+  ],
+
+  "stack" :[
+    
+  ], 
+
+  "queue" : [
+    
+  ], 
+
+  "tree" : [
+    
+  ], 
+
+  "graph" : [
+    
+  ]  
+}

@@ -1,0 +1,50 @@
+.topic-container{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.topic-tag{
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #b3b3b3;
+  transition: all 120ms linear;
+}
+
+.topic-tag:hover{
+  background: #ffffff;
+}
+
+.active-topic{
+  background-color: #30d46f;
+}
+
+.active-topic:hover{
+  background-color: #1cba59;
+}
+
+/* .topic-tag:active{
+  background: #30d46f;
+} */
+
+.welcome-text{
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}

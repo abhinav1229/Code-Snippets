@@ -1,0 +1,32 @@
+.code-container{
+  width: 90vw;
+  margin: 20px auto;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 720px) {
+ .code-container{
+   width: 80vw;
+ }
+}
+
+@media screen and (min-width: 990px) {
+ .code-container{
+   width: 70vw;
+ }
+}
+
+
+@media screen and (min-width: 1150px) {
+ .code-container{
+   width: 60vw;
+ }
+}
+
+@media screen and (min-width: 1350px) {
+ .code-container{
+   width: 50vw;
+ }
+}
